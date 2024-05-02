@@ -1,0 +1,785 @@
+User:carte électorale
+Borne : Inscription sur liste électorale
+
+User:livret de famille
+Borne : Livret de famille
+
+User:prélevé mon loyer
+Borne: mise en place contrat prélèvement
+
+User:prélèvement
+Borne : mise en place contrat prélèvement
+
+User:payer la cantine
+Borne : commande ou décommande de repas
+
+User:Bonjour J'aurais voulu avoir un acte de naissance de ma fille s'il vous plaît
+Borne : Actes de naissance, mariage, décès
+
+User:bonjour je viens parce qu'il me faudrait un acte de mariage
+Borne : Mariage
+
+User:bonjour je viens pour enregistrer un nouveau bébé
+Borne : Actes de naissance, mariage, décès
+
+User:bonjour je viens pour un acte de naissance
+Borne : Actes de naissance, mariage, décès
+
+bonjour je viens pour un acte de naissance s'il vous plaît
+Borne : Actes de naissance, mariage, décès
+
+User:bonjour je viens récupérer l'acte de mariage merci
+Borne : Mariage
+
+User:bonjour je viens récupérer l'acte de naissance de mon enfant s'il vous plaît
+Borne : Actes de naissance, mariage, décès
+
+User:j'ai besoin de retirer mon acte de décès
+Borne : Actes de naissance, mariage, décès
+
+User:j'ai besoin d'un acte de naissance
+Borne : Actes de naissance, mariage, décès
+
+User:j'ai besoin d'un décompte de sortie
+Borne : décompte de sortie (locataire quittant OPHEOR)
+
+User:j'ai besoin d'un état des lieux
+Borne: relance amiable : référence courrier reçu RC
+
+User:j'aimerais une copie de ma quittance de loyer
+Borne : explication avis échéance loyer
+j'aimerais une copie de mon acte de naissance
+Borne : Actes de naissance, mariage, décès
+
+User:je ne comprends pas mon avis d'échéance de loyer que m'a envoyé opheor
+Borne: explication avis échéance loyer
+
+User:je souhaite obtenir un acte de décès
+Borne : Déclaration de décès
+
+User:je souhaite obtenir un acte de mariage
+Borne : mariage
+
+User:je souhaite retirer l'acte de naissance de mon enfant
+Borne : Changement de prénoms, rectification d’actes
+
+User:je viens demander un acte de naissance et un acte de mariage
+Borne : Actes de naissance, mariage, décès
+
+User:je viens pour déclarer une naissance
+Borne : Déclaration de naissance, Reconnaissance
+
+User:je viens pour demander l'acte de naissance de ma fille
+Borne : Actes de naissance, mariage, décès
+
+User:je voudrais retirer le certificat de mariage s'il vous plaît
+Borne : mariage
+
+User:oui bonjour Je souhaiterais obtenir une attestation d'accueil s'il vous plaît
+Borne : demandes d'attestations diverses
+
+User:bonjour j'aimerais avoir un certificat de vie commune s'il vous plaît
+Borne : PACS (Dépôt de dossier, modification ou dissolution )
+
+User:j'ai besoin de quittance loyer
+Borne : explication avis échéance loyer
+
+User:j'ai besoin d'un certificat
+Borne : Certificats, légalisation de signature
+
+User:j'ai besoin d'un certificat de naissance
+Borne : Actes de naissance, mariage, décès
+
+User:j'aimerais faire attester un document
+Borne : demandes d'attestations diverses
+
+User:j'aimerais faire légaliser ma signature
+Borne: Certificats, légalisation de signature
+
+User:je viens pour faire légaliser ma signature
+Borne: Certificats, légalisation de signature
+
+User:je viens pour légaliser un contrat
+Borne: Certificats, légalisation de signature
+
+User:je viens pour récupérer un décompte de sortie
+Borne : mise en place contrat prélèvement
+
+User:je viens pour récupérer un livret de famille
+Borne : Livret de famille
+
+User:puis-je avoir une copie d'acte de naissance s'il vous plaît
+Borne : Actes de naissance, mariage, décès
+
+User:Bonjour je souhaiterais changer de prénom
+Borne : Changement de prénoms, rectification d’actes
+
+User:bonjour je viens pour un changement de prénom s'il vous plaît
+Borne : Changement de prénoms, rectification d’actes
+
+User:j'aimerais faire changer mon prénom
+Borne : Changement de prénoms, rectification d’actes
+
+User:je souhaite modifier un acte de naissance
+Borne : Changement de prénoms, rectification d’actes
+
+User:je veux changer de prénom
+Borne : Changement de prénoms, rectification d’actes
+
+User:je viens pour modifier une erreur sur un acte de naissance
+Borne : Changement de prénoms, rectification d’actes
+
+User:je viens pour un changement de prénom
+Borne : Changement de prénoms, rectification d’actes
+
+User:je viens pour un problème sur un acte de naissance
+Borne : Changement de prénoms, rectification d’actes
+
+User:bonjour je viens pour commander des repas
+Borne : commande ou décommande de repas
+
+User:j'aimerais annuler une commande de repas
+Borne : commande ou décommande de repas
+
+User:j'aimerais commander des repas de la cantine pour mes enfants
+Borne : commande ou décommande de repas
+
+User:j'aimerais commander un repas pour mon enfant
+Borne : commande ou décommande de repas
+
+User:je souhaite annuler un repas
+Borne : commande ou décommande de repas
+
+User : je souhaiterais mettre en place le contrat de prélèvement avec opheor
+Borne : mise en place contrat prélèvement
+
+User: je viens de commander le repas pour mon petit
+Borne : Commande ou décommande de repas
+
+User:bonjour ça serait pour la déclaration de décès de ma grand-mère
+Borne : Déclaration de décès
+
+User:Bonjour je souhaiterais faire une déclaration de décès s'il vous plaît
+Borne: Déclaration de décès
+
+User:bonjour je viens pour déclarer la mort de mon papa
+Borne : Déclaration de décès
+
+User:bonjour je viens pour la mise en place de mon contrat de prélèvement
+Borne : mise en place contrat prélèvement
+
+User:j'ai besoin de faire une déclaration de décès
+Borne : Déclaration de décès
+
+User:j'ai bien pour m'inscrire pour voter
+Borne : Inscription sur liste électorale
+
+User:j'aimerais faire une déclaration de décès
+Borne : Déclaration de décès
+
+User:je souhaite passer au prélèvement automatique
+Borne : mise en place contrat prélèvement
+
+User:je viens faire une déclaration de décès
+Borne : Déclaration de décès
+
+User:je viens pour une attestation opheor
+Borne : demandes d'attestations diverses
+
+User:je viens pour une déclaration de décès
+Borne : Déclaration de décès
+
+User:Bonjour je souhaiterais faire déclarer la naissance de mon enfant
+Borne : Déclaration de naissance, Reconnaissance
+
+User:Bonjour je souhaiterais faire reconnaître un enfant s'il vous plaît
+Borne : Déclaration de naissance, Reconnaissance
+
+User:bonjour je viens pour faire une reconnaissance d'enfant
+Borne : Déclaration de naissance, Reconnaissance
+
+User:bonjour je viens pour reconnaître mon enfant
+Borne : Déclaration de naissance, Reconnaissance
+
+User:bonjour je viens pour une déclaration de naissance
+Borne : Déclaration de naissance, Reconnaissance
+
+User:j'ai un impayé alors que j'ai quitté les locaux
+Borne : contentieux locataire parti : référence courrier reçu FC
+
+User:je souhaite déclarer la naissance de ma fille
+Borne : Déclaration de naissance, Reconnaissance
+
+User:je souhaite déclarer la naissance de mon enfant
+Borne : Déclaration de naissance, Reconnaissance
+
+User:je viens déclarer la naissance de mon enfant
+Borne : Déclaration de naissance, Reconnaissance
+
+User:je viens déclarer mon fils
+Borne : Déclaration de naissance, Reconnaissance
+
+User:je viens faire reconnaître mon petit
+Borne : Déclaration de naissance, Reconnaissance
+
+User:je viens pour les sous de ma caution
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:je viens pour reconnaître ma fille
+Borne : Déclaration de naissance, Reconnaissance
+
+User:je viens pour une récupérer une attestation de loyer
+Borne : demandes d'attestations diverses
+
+User:je viens reconnaître mon enfant
+Borne : Déclaration de naissance, Reconnaissance
+
+User:j'ai besoin d'explication concernant à mes charges
+Borne : explication régularisation des charges
+
+User:j'ai besoin d'une attestation de logement
+Borne : demandes d'attestations diverses
+
+User:j'ai besoin d'une attestation de loyer pour mon logement
+Borne : demandes d'attestations diverses
+
+User:j'ai un problème avec ma quittance de loyer
+Borne : explication avis échéance loyer
+
+User:je viens récupérer ma quittance de loyer
+Borne : décompte de sortie (locataire quittant OPHEOR)
+
+User:Bonjour je souhaiterais enregistrer un dossier PACS
+Borne : PACS (Dépôt de dossier, modification ou dissolution )
+
+User:bonjour je viens pour mettre en place un prélèvement concernant mon loyer
+Borne : mise en place contrat prélèvement
+
+bonjour je viens pour un enregistrement de PACS
+Borne: Enregistrement de PACS
+
+User:je souhaiterais avoir une date pour un enregistrement de PACS
+Borne: Demandes d'attestations diverses
+
+User:je viens pour enregistrer un PACS
+Borne: Enregistrement de PACS
+
+User:Bonjour je souhaiterais des explications par rapport à la régularisation de charges de mon loyer s'il vous plaît
+Borne: explication régularisation des charges
+
+User:j'ai reçu un avis d'échéance je ne comprends pas
+Borne: explication avis échéance loyer
+
+User:J'ai un problème de régularisation de mes charges
+Borne: explication régularisation des charges
+
+User:bonjour je vais inscrire mes enfants à la cantine
+Borne: Inscription Périscolaire (Cantine et Accueil)
+
+User:bonjour je viens inscrire mon fils à la cantine
+Borne: Inscription Périscolaire (Cantine et Accueil)
+
+User:j'aimerais arrêter l'inscription à la cantine de mon fils
+Borne: décommande de repas
+
+User:je viens enregistrer mon petit à la cantine
+Borne: Inscription Périscolaire (Cantine et Accueil)
+
+User:je viens pour récupérer la caution de mon loyer
+Borne: Règlement cantine en espèces
+
+User:je viens pour remplir la fiche d'inscription de mon enfant à la cantine
+Borne: Inscription Périscolaire (Cantine et Accueil)
+
+User:je voudrais faire une carte de cantine pour mon enfant s'il vous plaît
+Borne: Inscription Périscolaire (Cantine et Accueil)
+
+User:je voudrais qu'on m'explique pourquoi j'ai reçu un courrier au sujet du décompte de sortie
+Borne: explication avis échéance loyer
+
+User:Bonjour j'ai bien régler la cantine en liquide
+Borne: règlement cantine en espèces
+
+User:bonjour j'aimerais avoir une quittance de loyer
+Borne: explication régularisation des charges
+
+User:bonjour j'aimerais m'inscrire sur la liste électorale
+Borne: Inscription sur liste électorale
+
+User:bonjour j'aimerais voir quelles sont les modalités pour un prélèvement automatique
+Borne: mise en place contrat prélèvement
+
+User:Bonjour J'aimerais voter merci
+Borne: vote
+
+User:bonjour je viens m'inscrire sur les listes électorales
+Borne: Inscription sur liste électorale
+
+User:bonjour je viens pour une inscription sur la liste électorale de ma commune
+Borne: Inscription sur liste électorale
+
+User:j'aimerais m'inscrire pour les élections
+Borne: Inscription sur liste électorale
+
+User:j'aimerais m'inscrire pour pouvoir voter
+Borne: Inscription sur liste électorale
+
+User:j'aimerais m'inscrire sur les listes électorales
+Borne: Inscription sur liste électorale
+
+User:je viens pour m'inscrire pour les élections
+Borne: Inscription sur liste électorale
+
+User:bonjour je viens pour demander un livret de famille
+Borne: Livret de famille
+
+User:bonjour je viens récupérer mon livret de famille merci
+Borne: Livret de famille
+
+User:est-il obligatoire de signer le contrat de prélèvement
+Borne: mise en place contrat prélèvement
+
+User:j'ai besoin de mettre à jour mon livret de famille
+Borne: Changement de prénoms, rectification d’actes
+
+User:bonjour j'aurais besoin d'un prélèvement pour mon contrat s'il vous plaît
+Borne: mise en place contrat prélèvement
+
+bonjour j'aime pour une déclaration de décès
+Borne: Déclaration de décès
+
+User:bonjour je viens pour pour signaler déclaration de décès
+Borne: Déclaration de décès
+
+User:bonjour je viens prendre mon décompte de sortie loyer
+Borne: décompte de sortie (locataire quittant OPHEOR)
+
+User:bonjour je viens pour une attestation de loyer les charges s'il vous plaît
+Borne: explication régularisation des charges
+
+User:je demande j'ai besoin de demande d'attestation à quittance loyer
+Borne: demandes d'attestations diverses
+
+User:j'ai reçu un avis d'échéance pour mon loyer j'aimerais savoir que signifie
+Borne: explication avis échéance loyer
+
+User:Bonjour je voudrais mettre en place un contrat de prélèvement pour les logements les logements opheor s'il vous plaît
+Borne: mise en place contrat prélèvement
+
+User:puis-je avoir une copie de notre registre familier à s'il vous plaît
+Borne: Livret de famille
+
+User:alors je viens pour marier
+Borne: Mariage
+
+User:bonjour je viens permets marié
+Borne: Mariage
+
+User:j'ai un pour une photocopie de mon livret de famille
+Borne: Livret de famille
+
+User:je viens pour un renseignement sur les sur le mariage à la mairie
+Borne: renseignements, modification de dossier
+
+User:je viens de déposer mon dossier de PACS
+Borne: Dépôt de dossier, modification ou dissolution PACS
+
+User:jeux décès à déclarer
+Borne: Déclaration de décès
+
+User:je viens pour le prélèvement automatique du loyer du compte
+Borne: mise en place contrat prélèvement
+
+User:oui bonjour je viens pour finaliser le décompte de sortie appartement avec Orfeo
+Borne: décompte de sortie (locataire quittant OPHEOR)
+
+User:j'ai rien pour déclarer un décès
+Borne: Déclaration de décès
+
+User:j'ai déclaré de la naissance de mon fils
+Borne: Déclaration de naissance, Reconnaissance
+
+User:Bonjour je souhaiterais mettre à un prélèvement automatique pour le loyer
+Borne: mise en place contrat prélèvement
+
+User:bonjour je vais faire déclaration décès d'un perle
+Borne: Déclaration de décès
+
+User:je viens de pardon je viens pour déposer un dossier d'enregistrement de PACS
+Borne: Dépôt de dossier, modification ou dissolution PACS
+
+User:Bonjour pourriez-vous me donner plus d'explications concernant la régularisation des décharges
+Borne: explication régularisation des charges
+
+User:inscrire mon enfant à la cantine
+Borne: Inscription Périscolaire (Cantine et Accueil)
+
+User:je viens pour relancer un impayé
+Borne: relance amiable : référence courrier reçu RC
+
+User:je voudrais payer les mon loyer automatiquement
+Borne: mise en place contrat prélèvement
+
+User:Je je viens pour modifier le dossier de mon enfant à l'école
+Borne: renseignements, modification de dossier
+
+User:Bonjour J'aimerais fixer une date pour mon mariage l'année prochaine s'il vous plaît
+Borne : Mariage
+
+User:bonjour je viens de me marier et je souhaiterais effectuer tous les documents nécessaires pour l'acte civil
+Borne: Actes de naissance, mariage, décès
+
+User:bonjour madame Rossi je viens pour déclarer la naissance de ma fille Carla Rossi
+Borne: Déclaration de naissance
+
+User:il y a 6 mois que nous sommes mariés dans cette mairie et nous venons de nous apercevoir qu'il y a une erreur sur l'acte que vous nous avez remis
+Borne : Mariage, rectification d’actes
+
+User:j'ai 2 enfants et j'aimerais récupérer leurs actes de naissance pourriez-vous m'en procurer s'il vous plaît
+Borne : Actes de naissance, mariage, décès
+
+User:j'ai besoin d'information pour l'expulsion d'un locataire
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:j'ai besoin d'un acte de naissance pour mes impôts
+Borne : Actes de naissance, mariage, décès
+
+User:j'ai perdu l'acte de naissance de mariage et ben je voudrais le récupérer
+Borne : Actes de naissance, mariage, décès
+
+User:je dois déclarer le décès de ma maman et je ne sais pas quelle pièce il faut fournir
+Borne : Déclaration de décès
+
+User:je souhaite retirer un acte de décès ça fait 6 mois que j'ai déposé les dossiers pour les démarches et j'en ai marre de revenir ici c'est la septième fois que je reviens et j'en ai un peu marre
+Borne : Déclaration de décès
+
+User:je viens d'avoir un enfant là et je voudrais le déclarer
+Borne: Déclaration de naissance, Reconnaissance
+
+User:je viens pour récupérer l'acte de décès de mon enfant que j'ai assassiné
+Borne: Déclaration de décès
+
+User:j'habite dans un appartement qui appartient à la mairie et je voudrais pouvoir payer chaque mois automatiquement
+Borne: mise en place contrat prélèvement
+
+User:oui bonjour je viens pour récupérer un document d'acte de naissance suite à la naissance de mon fils
+Borne: Actes de naissance, mariage, décès
+
+User:Bonjour j'ai perdu des papiers et j'aimerais avoir un certificat de naissance
+Borne: Certificats, légalisation de signature
+
+User:bonjour je viens légaliser un contrat que j'ai effectué la semaine dernière
+Borne: Certificats, légalisation de signature
+
+User:Bonjour pour mon assurance j'aurais besoin d'une attestation de loyer s'il vous plaît
+Borne: Relance amiable : référence courrier reçu RC
+
+User:je suis locataire et j'ai besoin d'une attestation
+Borne: relance amiable : référence courrier reçu RC
+
+User:je viens pour une légalisation de signature sur un document administratif
+Borne: Certificats, légalisation de signature
+
+User:j'habite avec ma copine depuis quelques années là et je voudrais un pap
+ier pour prouver que qu'on habite ensemble
+Borne : PACS (Dépôt de dossier)
+
+User:ma compagne et moi avons besoin d'un certificat de vie commune
+Borne : Certificats, légalisation de signature
+
+User:alors j'aimerais pouvoir changer le régime de mon enfant car je le trouve inadapté pour sa santé
+Borne : Changement de prénoms, rectification d’actes
+
+User:apparemment je suis en contentieux avec mon propriétaire et j'ai besoin de parler à quelqu'un
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:Bonjour il y a une erreur dans l'acte de naissance de mon fils il s'appelle romain et non pas roman je viens pour le faire changer
+Borne : Changement de prénoms, rectification d’actes
+
+User:Bonjour J'ai reçu une facture concernant un appartement opheor et des charges que j'aurai pas payer le je voudrais des explications
+Borne : Renseignements, modification de dossier
+
+User:bonjour j'aimerais changer de prénom quelle est la démarche à suivre
+Borne: Changement de prénoms, rectification d’actes
+je viens effectué une démarche pour changer de prénom
+Borne: Changement de prénoms, rectification d’actes
+
+User:oui bonjour je suis venu la semaine dernière faire la déclaration de naissance de mon fils et j'ai vu sur la sur l'acte de naissance que vous étiez trompé sur l'orthographe du coup je viens pour rectifier son prénom
+Borne: Changement de prénoms, rectification d’actes
+
+User:Bonjour j'ai été locataire opheor je vais partir et je voudrais les charges de mon loyer
+Borne: décompte de sortie (locataire quittant OPHEOR)
+
+User:bonjour j'aimerais bien faire les commandes pour mon fils à la cantine scolaire
+Borne: Commande ou décommande de repas
+
+User:bonjour je viens vous préciser comme mon enfant ne pourra pas manger à la cantine ce vendredi donc je voudrais décommander le repas
+Borne: Commande ou décommande de repas
+
+User:je souhaite que mon enfant mange plus de légumes à la cantine
+Borne: Renseignements, modification de dossier
+
+User:je veux réserver un plat végétarien pour mon enfant
+Borne: Règlement cantine en espèces
+
+User:j'envisage de me marier l'année prochaine je voudrais savoir toutes les démarches qu'il faut faire vis-à-vis de la mairie
+Borne : Mariage
+
+User:on va se marier avec ma copine et je voudrais avoir des informations sur les démarches
+Borne: Mariage
+
+User:un bonjour je vais me marier avec mon ami j'aimerais déposer un dossier auprès de la mairie merci
+Borne: PACS (Dépôt de dossier, modification ou dissolution )
+
+User:Bonjour je m'étais inscrit pour me pacser finalement mon ami c'est un boulet donc je viens annuler tout ça
+Borne: PACS (Dépôt de dossier, modification ou dissolution )
+
+User:bonjour suite à ma séparation avec ma conjointe je voudrais savoir comment faire pour la dissolution du PACS
+Borne: PACS (Dépôt de dossier, modification ou dissolution )
+
+User:je viens de me séparer avec ma conjointe et j'aurais voulu faire une mise à jour au niveau de la mairie s'il vous plaît
+Borne: Renseignements, modification de dossier
+
+User:je viens de me séparer je souhaite dissoudre mon PACS
+Borne: PACS (Dépôt de dossier, modification ou dissolution )
+
+User:Bonjour je quitte le logement et du coup j'aimerais savoir quand j'aurai ma caution
+Borne: contentieux locataire présent : référence courrier reçu FC
+
+User:bonjour je vais déménager je souhaiterais changer d'école mes enfants
+Borne: Première Inscription scolaire-changement d'école
+
+User:je viens de déménager sur Roanne et je veux inscrire mon gamin à l'école
+Borne: Première Inscription scolaire-changement d'école
+
+User:oui bonjour je souhaiterais faire un changement d'école pour mon enfant et du coup je viens vous voir pour effectuer la première inscription
+Borne: Première Inscription scolaire-changement d'école
+
+User:Bonjour j'ai 17 ans et j'étais censé me faire recenser l'année dernière et c'est pour ça que je viens
+Borne: Recensement des jeunes
+
+User:je viens d'avoir 16 ans là et je voudrais savoir les démarches que j'ai à faire
+Borne : Inscription Périscolaire (Cantine et Accueil)
+
+User:je voudrais me faire recenser je ne sais pas à partir de quel âge il faut le faire et je ne sais pas quelle démarche il faut faire
+Borne : Recensement des jeunes
+
+User:Bonjour j'ai 7 ans je dois faire une journée d'appel du coup je viens pour leur santé
+Borne : Recensement des jeunes
+
+User:Bonjour je souhaiterais rentrer l'un de vos agents d'état civil pour les documents d'acte de naissance
+Borne : Actes de naissance, mariage, décès
+
+User:Bonjour je suis plus dans les locaux depuis un bon moment et je comprends pas pourquoi me demande encore de payer
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:jeux rendez-vous pour certificat de naissance
+Borne : Actes de naissance, mariage, décès
+
+User:nous sommes mariés la semaine dernière et nous venons récupérer document
+Borne : Actes de naissance, mariage, décès
+
+User:accompagne-moi sur toi enregistrement sur le pacte civil de solidarité
+Borne : PACS (Dépôt de dossier, modification ou dissolution )
+
+User:alors j'ai j'ai obtenir un certificat mais j'aurais souhaité le légaliser pourriez-vous m'aider merci
+Borne : Certificats, légalisation de signature
+
+User:Bonjour j'ai un dossier de d'état civil naissance et j'ai envie de légaliser
+Borne : Certificats, légalisation de signature
+
+User:bonjour j'aurais besoin d'un certificat d'attestation d'une commune s'il vous plaît
+Borne : Demandes d'attestations diverses
+
+User:Bonjour je suis venu pour renouveler mon certificat de vie commune en 7 fois par an et je prends rendez-vous
+Borne : Certificats, légalisation de signature
+
+User:bonjour je viens pour une reconnaissance de dette pour signer papier
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:j'ai accueilli chez moi et ranger récemment et je viens pour lui faire établir une attestation d'accueil
+Borne : Demandes d'attestations diverses
+
+User:je voudrais faire une copie conforme une signature
+Borne : Certificats, légalisation de signature
+
+User:ben je viens pour signaler un changement de un changement de nom
+Borne : Changement de prénoms, rectification d’actes
+
+bonjour en fait mon grand-père il est pas mort et du coup j'ai rectifié son acte de décès
+Borne : Changement de prénoms, rectification d’actes
+
+User:Bonjour J'aimerais rectifier des quelques renseignements sur mon acte de mariage serait-il possible de le faire merci
+Borne : Changement de prénoms, rectification d’actes
+
+User:Bonjour mes parents m'ont appelé pommes j'en ai un j'en ai un peu assez j'aimerais changer de prénom et serait-il possible de changer merci
+Borne : Changement de prénoms, rectification d’actes
+
+User:bonjour vous avais téléphoné la semaine dernière pour que pour demander à ce que les enfants du foyer soir sens et du coup je viens recenser ma fille merci
+Borne : Inscription Périscolaire (Cantine et Accueil)
+
+User:ce que j'ai retiré il y a 2 semaines une erreur sur le nom de mon enfant je souhaite le corriger
+Borne : Certificats, légalisation de signature
+
+User:j'ai reçu un courrier de mon ancien propriétaire en ce moment mon mes mes loyers impayés
+Borne : Explication avis échéance loyer
+
+User:j'ai reçu une relance concernant des impayés alors je vous précise une relance amiable je viens pour régulariser ça
+Borne : relance amiable : référence courrier reçu RC
+
+User:je suis parti il y a plus de moi je vais t'engager avec le propriétaire à faire pas mal de travaux pour éviter de payer justement mais ma demande as pas pris a pas été prise en compte
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:ouais j'ai quitté mon appartement à qui est jouée par opheor et je vais régler tous les tous les paiements mais j'ai reçu une lettre pour dire que c'était pas le cas
+Borne : décompte de sortie (locataire quittant OPHEOR)
+Bonjour je suis déjà venu du coup j'ai rendez-vous avec vous si rendez-vous avec vous vous m'avez demandé des justificatifs pour le dossier de mariage je suis venu donc vous les apporter
+Borne : Mariage
+
+User:Bonjour je suis venu parce que je reste sur un courrier de de mon propriétaire à concernant mes mes loyers impayés je souhaite régler ce problème
+Borne : explication avis échéance loyer
+
+User:je viens pour régler un litige avec offert
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:j'habite dans un logement loué par erreur j'ai payé mes loyers régulièrement et pourtant j'ai reçu une lettre qui me qui me dit que il fallait que je paye
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:oui bonjour je viens de recevoir un courrier là qui me dit que je dois des sous c'est hors de question au ferme loue un appartement j'ai toujours tout payer je ne paierai rien donc je vais être reçu
+Borne : explication avis échéance loyer
+
+User:Bonjour j'ai un voisin qui vient de mourir je sais qu'il a pas de famille donc je viens simplement déclarer son décès
+Borne: Déclaration de décès
+
+User:je voudrais déclarer un décès je sais pas comment hacker service aller
+Borne: Déclaration de décès
+
+User:ma patiente vient de décédé à la suite d'une courte maladie et je viens d'en vous informer pour que vous puissiez faire les procédures administratives nécessaire
+Borne: Déclaration de décès
+
+User:Bonjour J'ai ma femme la qui vient d'avoir un gosse quoi du coup
+Borne: Déclaration de naissance, Reconnaissance
+
+User:bonjour je viens je viens enregistrer la naissance de mes deux jumelles donc ils sont venus au monde la semaine dernière
+Borne: Déclaration de naissance, Reconnaissance
+
+User:bonjour je viens rapport à toutes vos relance téléphonique sur l'ancien contentieux quand j'étais locataire chez et donc voilà je viens
+Borne: contentieux locataire présent : référence courrier reçu FC
+
+User:Bonjour là je viens de retrouver mes fils j'aimerais le reconnaître quoi
+Borne: Déclaration de naissance, Reconnaissance
+
+User:j'ai pas car donc j'ai besoin de payer en liquide pour mon gamin à la cantine
+Borne: Règlement cantine en espèces
+
+User:je viens de faire la connaissance de ma gamine qui a 16 ans et d'ange ignorez l'existence jusqu'à présent je viens la reconnaître
+Borne: Déclaration de naissance, Reconnaissance
+
+User:je viens déclarer la naissance de l'enfant de ma voisine parce qu'elle a encore à l'hôpital
+Borne: Déclaration de naissance, Reconnaissance
+
+User:je viens déclarer l'arrivée au monde de du joli bébé de ma voisine elle
+ n'a pas pu faire le déplacement elle-même parce que elle est encore à l'hôpital elle a encore besoin de soins et vraiment envoyer pour le faire
+Borne: Déclaration de naissance, Reconnaissance
+
+User:on déménage là j'aurai inscrire mon enfant à un autre endroit
+Borne: Première inscription scolaire-changement d'école
+
+User:bonjour suite à mon départ au mois de février de logement je suis de vous apporter un chèque pour le solde de tout compte
+Borne: décompte de sortie (locataire quittant OPHEOR)
+
+User:je vais partir de mon logement le sortir de mon logement je j'ai besoin de plus de renseignements concernant le décompte de sortie
+Borne: décompte de sortie (locataire quittant OPHEOR)
+
+User:Bonjour J'ai reçu donc la taxe habitation des décharges dans l'appartement qui s'appelle le calme vous gérer et j'ai beaucoup de questions sur sur la répartition financière
+Borne: relance amiable : référence courrier reçu RC
+
+User:Bonjour J'ai un petit problème de sur mon sur mes mes loyers j'aurais voulu discuter des de la facturation que j'ai reçu avec un avec un agent
+Borne: explication avis échéance loyer
+
+Bonjour pour recevoir une facture de mon prestataire j'ai vraiment besoin d'un certificat de vie commune est-ce que c'est possible de prendre rendez-vous avec vous
+Borne: Certificats, légalisation de signature
+
+User:j'ai besoin de renseignements concernant les loyers je comprends pas les explications à donner
+Borne: relance amiable : référence courrier reçu RC
+
+User:bonjour je viens pour donc pour avoir récupéré du coup mon chèque de caution que j'ai quitté l'appartement dernière voilà donc OK
+Borne: décompte de sortie (locataire quittant OPHEOR)
+
+User: Bonjour J'ai bien reçu l'avis d'échange concernant le loyer mais je m'étonne de l'augmentation je porte des charges
+Borne : explication avis échéance loyer
+
+User:bonjour j'aimerais bien une explication car mes échéances au niveau de mon loyer en te commenter qu'est-ce que je dois faire merci
+Borne : explication avis échéance loyer
+
+User:Bonjour je souhaiterais des informations suis ton aux échéances à payer concernant mon loyer
+Borne : explication avis échéance loyer
+
+User:bonjour je viens de payer la la cotisation mensuelle pour l'inscription donc de ma petite fille à la cantine merci
+Borne : commande ou décommande de repas
+
+User:Bonjour je vous appelle pour vous informer que j'en sais pas besoin de régulariser avant un mois et demi
+Borne : régularisation des charges
+
+User:il y a une mentation de la régularisation de mes charges je trouve ça inadmissible je veux parler au maire
+Borne : régularisation des charges
+
+User:j'ai les chances qu'ils ont augmenté ce mois-ci je comprends pas est-ce que quelqu'un pourrait m'expliquer
+Borne : explication avis échéance loyer
+
+User:alors mon enfant était pas la cantine à partir du 12 il va rentrer sur la cantine et j'ai absolument besoin d'inscrire sinon ben il mangera pas et on sera dans la merde quoi
+Borne : inscription Périscolaire (Cantine et Accueil)
+
+User:aujourd'hui avec mon jeune fille et donc il a 18 ans et on aimerait bien la cire sur la liste électorale
+Borne : inscription sur liste électorale
+
+User:Bonjour ben je viens pour enregistrer un presque à mon enfant à mon centre aéré
+Borne : Enregistrement de PACS
+
+User:Bonjour je souhaiterais inscrire ma fille à la cantine du collège Louis Germain je voudrais savoir si il y a une carte acheter ou à 30
+Borne : Inscription Périscolaire (Cantine et Accueil)
+
+User:bonjour je viens pour la démarche inscription pour les temps périscolaire
+Borne : inscription Périscolaire (Cantine et Accueil)
+
+User:bonjour madame je suis venu à Mathieu je tu as rien je souhaite commander ce menu pour la semaine en cours
+Borne : commande ou décommande de repas
+
+User:Bonjour mes enfants étant malade je souhaiterais supprimer des la canti
+ne
+Borne : commande ou décommande de repas
+
+User:je voudrais que mon enfant mange à l'école de midi donc je voudrais je voudrais l'inscrire
+Borne : inscription Périscolaire (Cantine et Accueil)
+
+ma fille est inscrite à l'école et je souhaite m'inscrire aussi à la cantine et voir avoir plus de renseignements sur ça
+Borne : inscription Périscolaire (Cantine et Accueil)
+
+User:mon enfant Roxane été à la crèche l'an dernier et aller en petite section cette année je voudrais connaître les démarches à faire
+Borne : inscription Périscolaire (Cantine et Accueil)
+
+User:on s'aperçut que sur un des documents il y avait une erreur sur le prénom d'un nos enfants nous convient modifier tout ça
+Borne : changement de prénoms, rectification d’actes
+
+User:agence inadmissible je viens de recevoir ma facture de loyer il y a c'est complètement erroné sais pas d'où sortait ces prix-là mais j'ai besoin de quelqu'un
+Borne : contentieux locataire présent : référence courrier reçu FC
+
+User:Bonjour Dans le cadre des élections prochaines je suis venu avec mon jeune fils pour pour l'enregistrer sur la liste électorale
+Borne : inscription sur liste électorale
+
+User:bonjour j'aimerais modifier des indications qui figurent sur ma mon document de liste électorale
+Borne : changement de prénoms, rectification d’actes
+
+User:Bonjour je voudrais pouvoir voter aux prochaines élections donc je viens mon registre et pour pouvoir le faire
+Borne : inscription sur liste électorale
+
+User:bonjour Ma fille vient d'avoir 18 ans et je souhaiterais inscrire pour les prochaines élections municipales
+Borne : inscription sur liste électorale
+
+User:je suis venu pour je suis Trangé je suis venu pour pour voir si je le droit de m'inscrire sera sur la liste électorale
+Borne : inscription sur liste électorale
+
+User:je viens parce que j'ai déménagé du coup par rapport aux élections ben je voudrais m'inscrire sur la liste
+Borne : inscription sur liste électorale
+
+User:je viens pour me faire expliquer une une ligne que je ne comprends pas sur une régularisation de charges
+Borne : explication avis échéance loyer
