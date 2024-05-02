@@ -1,0 +1,63 @@
+version: "3.1"
+
+stories:
+- story: Saluer
+  steps:
+  - intent: salutation
+  - action: utter_salutation
+
+- story: Demander les horaires de la mairie
+  steps:
+  - intent: horaires_mairie
+  - action: utter_horaires_mairie
+
+- story: Demander les services de la mairie
+  steps:
+  - intent: services_mairie
+  - action: utter_services_mairie
+
+- story: Demander des documents administratifs
+  steps:
+  - intent: documents_administratifs
+  - action: utter_documents_administratifs
+
+- story: Demander des informations sur le mariage
+  steps:
+  - intent: mariage
+  - action: utter_mariage
+
+- story: Inscrire à l'école
+  steps:
+  - intent: inscription_ecole
+  - action: utter_inscription_ecole
+
+- story: Prendre un rendez-vous
+  steps:
+  - intent: prise_rendez_vous
+  - action: utter_prise_rendez_vous
+
+- story: Demander une aide sociale
+  steps:
+  - intent: demande_aide_sociale
+  - action: utter_demande_aide_sociale
+
+- story: Renouveler un document
+  steps:
+  - intent: renouvellement_document
+  - action: utter_renouvellement_document
+
+- story: S'inscrire sur les listes électorales
+  steps:
+  - intent: inscription_listes_electorales
+  - action: utter_inscription_listes_electorales
+
+- story: Demander des informations
+  steps:
+  - intent: demande_informations
+  - action: utter_demande_informations
+
+- story: Dire au revoir
+  steps:
+  - intent: au_revoir
+  - action: utter_au_revoir
+

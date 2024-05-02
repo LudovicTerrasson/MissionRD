@@ -1,0 +1,72 @@
+version: "3.1"
+
+intents:
+  - salutation
+  - horaires_mairie
+  - services_mairie
+  - au_revoir
+  - documents_administratifs
+  - mariage
+  - inscription_ecole
+  - prise_rendez_vous
+  - demande_aide_sociale
+  - renouvellement_document
+  - inscription_listes_electorales
+  - demande_informations
+
+responses:
+  utter_salutation:
+  - text: "Bonjour! Comment puis-je vous aider aujourd'hui? N'hésitez pas à me poser vos questions."
+
+  utter_horaires_mairie:
+  - text: "La mairie est ouverte du lundi au vendredi de 9h à 17h. Elle est fermée les weekends et les jours fériés."
+
+  utter_services_mairie:
+  - text: "À la mairie, vous pouvez obtenir divers services, notamment la délivrance de documents comme les cartes d'identité et les passeports, l'assistance sociale pour les personnes dans le besoin, les inscriptions aux événements locaux et les rendez-vous avec les agents municipaux. Pour des informations spécifiques, n'hésitez pas à demander."
+
+  utter_au_revoir:
+  - text: "Au revoir! Si vous avez d'autres questions à l'avenir, n'hésitez pas à revenir. Bonne journée!"
+
+  utter_documents_administratifs:
+  - text: "Pour obtenir une carte d'identité, un passeport ou d'autres documents administratifs, vous devez vous rendre à la mairie avec les documents requis, tels que votre acte de naissance et une pièce d'identité. Les agents municipaux vous guideront à travers le processus."
+
+  utter_mariage:
+  - text: "Pour organiser un mariage civil à la mairie, vous devez d'abord fixer une date en contactant le service d'état civil. Ensuite, vous devrez remplir un dossier de mariage et fournir certains documents, tels que des pièces d'identité et un certificat de célibat si nécessaire. Assurez-vous de vous renseigner sur les délais et les exigences spécifiques de votre mairie."
+
+  utter_inscription_ecole:
+  - text: "Pour inscrire votre enfant à l'école, vous devez d'abord contacter l'établissement scolaire de votre choix pour connaître les documents requis et les dates d'inscription. Habituellement, vous devrez fournir des documents tels que le certificat de naissance de votre enfant, un justificatif de domicile et votre pièce d'identité."
+
+  utter_prise_rendez_vous:
+  - text: "Pour prendre rendez-vous à la mairie, vous pouvez appeler notre standard pendant les heures d'ouverture ou utiliser notre système de prise de rendez-vous en ligne sur notre site web. Assurez-vous d'avoir en tête la nature de votre demande pour que nous puissions vous aider au mieux."
+
+  utter_demande_aide_sociale:
+  - text: "Pour demander une aide sociale, prenez rendez-vous avec notre service d'aide sociale. Ils pourront évaluer votre situation et vous orienter vers les programmes d'assistance disponibles, ainsi que vous fournir des conseils et des ressources supplémentaires pour vous aider à faire face à vos difficultés."
+
+  utter_renouvellement_document:
+  - text: "Pour renouveler un document administratif comme une carte d'identité ou un passeport, rendez-vous à la mairie avec les documents requis, tels que votre ancien document et éventuellement des photos d'identité récentes. Les agents municipaux vous indiqueront la procédure à suivre et les délais de traitement."
+
+  utter_inscription_listes_electorales:
+  - text: "Pour vous inscrire sur les listes électorales, vous devez remplir un formulaire d'inscription disponible à la mairie ou sur notre site web. Assurez-vous de fournir les documents requis, comme une pièce d'identité et un justificatif de domicile. La date limite d'inscription varie, alors assurez-vous de vous inscrire à temps pour pouvoir voter lors des prochaines élections."
+
+  utter_demande_informations:
+  - text: "Si vous avez besoin d'informations supplémentaires sur un sujet particulier, n'hésitez pas à contacter notre service d'information. Nous sommes là pour répondre à vos questions et vous fournir l'aide dont vous avez besoin."
+
+actions:
+- utter_salutation
+- utter_horaires_mairie
+- utter_services_mairie
+- utter_au_revoir
+- utter_documents_administratifs
+- utter_mariage
+- utter_inscription_ecole
+- utter_prise_rendez_vous
+- utter_demande_aide_sociale
+- utter_renouvellement_document
+- utter_inscription_listes_electorales
+- utter_demande_informations
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+- rule: Répondre aux questions sur les documents administratifs
+  steps:
+  - intent: documents_administratifs
+  - action: utter_documents_administratifs
+
+- rule: Répondre aux questions sur le renouvellement de documents
+  steps:
+  - intent: renouvellement_document
+  - action: utter_renouvellement_document
+
+- rule: Répondre aux questions sur l'inscription aux listes électorales
+  steps:
+  - intent: inscription_listes_electorales
+  - action: utter_inscription_listes_electorales
+
+- rule: Répondre aux demandes de prise de rendez-vous
+  steps:
+  - intent: prise_rendez_vous
+  - action: utter_prise_rendez_vous
+
+- rule: Répondre aux questions sur l'inscription à l'école
+  steps:
+  - intent: inscription_ecole
+  - action: utter_inscription_ecole
+
+- rule: Répondre aux questions sur le mariage à la mairie
+  steps:
+  - intent: mariage
+  - action: utter_mariage
+

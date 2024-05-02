@@ -1,0 +1,608 @@
+version: "3.1"
+
+nlu:
+- intent: salutation
+  examples: |
+    - salut
+    - bonjour
+    - hello
+    - coucou
+    - Salut! Comment puis-je vous aider aujourd'hui?
+    - Bonjour, avez-vous besoin d'assistance?
+    - Salutations, que puis-je faire pour vous?
+    - Hey, comment ça va?
+    - Coucou! Besoin d'aide?
+    - Salut, que puis-je faire pour vous?
+    - Hello! Comment puis-je vous assister?
+    - Bonjour, comment allez-vous?
+    - Salut, besoin de renseignements?
+    - Hey, que puis-je faire pour vous?
+    - Bonjour! Besoin d'aide?
+    - Salut, avez-vous des questions?
+    - Hello! Comment puis-je vous assister aujourd'hui?
+    - Bonjour, que puis-je faire pour vous?
+    - Coucou! Besoin d'aide aujourd'hui?
+    - Salut, comment puis-je vous aider?
+    - Bonjour, avez-vous besoin d'informations?
+    - Hello! Que puis-je faire pour vous?
+    - Salut, comment ça va?
+    - Bonjour! Comment puis-je vous aider?
+    - Salut, que puis-je faire pour vous aujourd'hui?
+    - Hello! Besoin d'assistance?
+    - Salut, comment ça se passe?
+    - Bonjour! Besoin de renseignements?
+    - Salut, comment puis-je vous assister?
+    - Bonjour, comment puis-je vous aider?
+    - Hello! Avez-vous des questions?
+    - Salut, besoin d'aide?
+    - Bonjour, avez-vous besoin d'assistance?
+    - Salut, que puis-je faire pour vous?
+    - Hello, comment ça va?
+    - Salut! Besoin de renseignements?
+    - Bonjour, comment allez-vous aujourd'hui?
+    - Salut, comment puis-je vous aider aujourd'hui?
+    - Hello! Besoin d'informations?
+    - Bonjour, que puis-je faire pour vous?
+    - Salut, besoin d'aide?
+    - Bonjour, avez-vous des questions?
+    - Salut! Comment ça se passe?
+    - Bonjour! Besoin d'assistance?
+    - Salut, comment puis-je vous assister?
+    - Hello! Comment puis-je vous aider?
+    - Bonjour, que puis-je faire pour vous?
+    - Salut, besoin de renseignements?
+- intent: horaires_mairie
+  examples: |
+    - Quels sont les horaires d'ouverture?
+    - Quand est-ce que la mairie ouvre?
+    - A quelle heure la mairie ferme-t-elle?
+    - Quand puis-je vous rendre visite?
+    - La mairie est-elle ouverte le samedi?
+    - Quels sont vos horaires de travail?
+    - Je veux connaître vos heures d'ouverture.
+    - Quand puis-je passer à la mairie?
+    - Est-ce que la mairie est ouverte le dimanche?
+    - Quels sont les jours d'ouverture de la mairie?
+    - Y a-t-il des heures spéciales d'ouverture pendant les vacances?
+    - Pouvez-vous me dire quand je peux venir à la mairie?
+    - La mairie est-elle ouverte aujourd'hui?
+    - A quelle heure puis-je vous rendre visite?
+    - Puis-je vous rendre visite en dehors des heures d'ouverture?
+    - Quels sont les horaires de travail du service des affaires sociales?
+    - Est-ce que je peux venir à la mairie après le travail?
+    - Les horaires d'ouverture sont-ils les mêmes tous les jours?
+    - A quelle heure la mairie ouvre-t-elle demain?
+    - Y a-t-il des heures d'ouverture prolongées pour les services d'état civil?
+    - Quand est-ce que la mairie ferme le vendredi?
+    - La mairie est-elle ouverte pendant la pause déjeuner?
+    - Pouvez-vous me dire quand la mairie ouvre le matin?
+    - Quels sont les horaires de fermeture pendant les jours fériés?
+    - Est-ce que la mairie est ouverte toute la journée?
+    - A quelle heure la mairie ferme-t-elle le jeudi?
+    - Y a-t-il des heures d'ouverture spéciales pour le service des impôts?
+    - Les horaires d'ouverture sont-ils différents pendant les vacances scolaires?
+    - Quand est-ce que la mairie ouvre le lundi?
+    - La mairie est-elle ouverte à midi?
+    - Quels sont les horaires de travail du service urbanisme?
+    - Puis-je venir à la mairie le soir?
+    - A quelle heure la mairie ferme-t-elle habituellement?
+    - Quels sont les horaires de travail du service des passeports?
+    - La mairie est-elle ouverte toute l'année?
+    - Y a-t-il des heures d'ouverture différentes pour les différents services municipaux?
+    - Est-ce que la mairie ferme tôt le mercredi?
+    - Quand puis-je vous rendre visite en personne?
+    - Quels sont les horaires de travail du service des archives?
+    - La mairie est-elle ouverte pendant les vacances d'été?
+    - Pouvez-vous me dire quand je peux venir pour obtenir un certificat de résidence?
+    - A quelle heure la mairie ferme-t-elle le vendredi soir?
+    - Quels sont les horaires de fermeture du service des finances?
+    - Est-ce que la mairie est ouverte le soir?
+    - Quand est-ce que la mairie ouvre après le déjeuner?
+    - Les horaires de la mairie sont-ils différents le week-end?
+- intent: services_mairie
+  examples: |
+    - Quels services proposez-vous?
+    - Pouvez-vous m'en dire plus sur les services offerts par la mairie?
+    - Je suis intéressé par les services municipaux.
+    - Que puis-je faire à la mairie?
+    - Quels sont les services disponibles?
+    - Y a-t-il des services en ligne disponibles?
+    - Je cherche des informations sur vos services.
+    - J'aimerais connaître les différents services que vous offrez.
+    - Y a-t-il un service d'aide juridique à la mairie?
+    - Je voudrais savoir si vous avez un service de gestion des déchets.
+    - Est-ce que vous proposez un service de transport pour les personnes âgées?
+    - Avez-vous des services de loisirs disponibles?
+    - Y a-t-il un service d'urgence médicale à la mairie?
+    - Je cherche un service de garde d'enfants, est-ce que vous en proposez?
+    - Pouvez-vous m'aider à trouver des informations sur les services sociaux?
+    - Est-ce que vous avez un service d'assistance aux entreprises?
+    - J'aimerais obtenir des informations sur les services culturels.
+    - Y a-t-il un service d'aide à la recherche d'emploi?
+    - Je cherche des informations sur les services de santé disponibles.
+    - Est-ce que vous avez un service de logement social?
+    - Pouvez-vous m'informer sur les services de protection de l'environnement?
+    - Je voudrais savoir si vous avez des services de médiation familiale.
+    - Y a-t-il un service de transport en commun géré par la mairie?
+    - Je cherche des informations sur les services de sécurité publique.
+    - Est-ce que vous proposez un service d'aide alimentaire?
+    - Avez-vous un service de soutien aux personnes handicapées?
+    - Je voudrais obtenir des informations sur les services d'aide aux personnes âgées.
+    - Y a-t-il un service de médiation pour les conflits de voisinage?
+    - Est-ce que vous avez un service de recyclage des déchets?
+    - Je cherche des informations sur les services de prévention des incendies.
+    - Pouvez-vous m'aider à trouver des informations sur les services de transport pour les personnes handicapées?
+    - Est-ce que vous proposez un service d'aide aux victimes de violence domestique?
+    - Y a-t-il un service d'assistance psychologique à la mairie?
+    - Je voudrais savoir si vous avez un service d'aide aux immigrants.
+    - Est-ce que vous avez des services d'orientation professionnelle?
+    - Je cherche des informations sur les services de soutien aux familles monoparentales.
+    - Pouvez-vous m'informer sur les services de prévention de la toxicomanie?
+    - Est-ce que vous proposez un service d'aide aux sans-abri?
+    - Y a-t-il un service de gestion des parcs et jardins à la mairie?
+    - Je voudrais obtenir des informations sur les services de tutorat scolaire.
+    - Est-ce que vous avez un service de soutien aux personnes endeuillées?
+    - Pouvez-vous m'aider à trouver des informations sur les services de protection des animaux?
+    - Je cherche des informations sur les services de prévention des maladies.
+    - Est-ce que vous proposez un service de garde d'animaux domestiques?
+    - Y a-t-il un service d'aide à la recherche de logement?
+    - Je voudrais savoir si vous avez un service d'accompagnement pour les personnes âgées.
+    - Est-ce que vous avez des services de sensibilisation à l'environnement?
+    - Pouvez-vous m'informer sur les services de réinsertion professionnelle?
+    - Est-ce que vous proposez un service de prêt de matériel médical?
+    - Y a-t-il un service d'aide aux personnes en situation de handicap mental?
+- intent: au_revoir
+  examples: |
+    - Au revoir
+    - À bientôt
+    - Adieu
+    - Bye
+    - Merci pour votre aide, au revoir
+    - C'était un plaisir, à la prochaine
+    - Je vais partir maintenant, salut
+    - À plus tard
+    - Passez une bonne journée
+    - Bonne journée à vous aussi
+    - Salut, à la prochaine
+    - Prenez soin de vous
+    - Bye bye
+    - À la revoyure
+    - À tout à l'heure
+    - Bonne soirée
+    - À demain
+    - Salutations
+    - À la prochaine fois
+    - Bonne continuation
+    - À plus
+    - Ciao
+    - À très bientôt
+    - Bonne fin de journée
+    - À la prochaine, merci
+    - Je vous quitte maintenant, salut
+    - Bonne nuit
+    - On se revoit plus tard
+    - À plus tard, merci
+    - Bonne journée à vous
+    - Tchao
+    - À la prochaine, au revoir
+    - Je vous laisse, à bientôt
+    - Bonne semaine
+    - À la prochaine, bye
+    - Bon weekend
+    - À la revoyure, merci
+    - Salut, à plus tard
+    - Je m'en vais, adieu
+    - À plus, merci
+    - Bonne journée, au revoir
+    - À la semaine prochaine
+    - Salut, à demain
+    - Je vous laisse, bonne journée
+    - À la prochaine fois, merci
+    - Bonne soirée à vous aussi
+    - À plus tard, passez une bonne journée
+    - Je m'en vais maintenant, à la prochaine
+- intent: documents_administratifs
+  examples: |
+    - Comment puis-je obtenir un permis de conduire?
+    - Quels sont les documents nécessaires pour obtenir une carte de résident?
+    - Pouvez-vous m'informer sur la procédure d'obtention d'un extrait d'acte de naissance?
+    - Comment puis-je obtenir un certificat de résidence?
+    - Quelle est la démarche à suivre pour obtenir un certificat de célibat?
+    - J'aimerais savoir comment renouveler mon passeport.
+    - Où puis-je obtenir un acte de mariage?
+    - Quels documents dois-je fournir pour obtenir une carte Vitale?
+    - Pouvez-vous me dire comment obtenir un certificat de nationalité française?
+    - Comment puis-je obtenir un titre de séjour?
+    - Quelle est la procédure pour obtenir un extrait de casier judiciaire?
+    - J'aimerais savoir comment obtenir un permis de construire.
+    - Où puis-je obtenir un livret de famille?
+    - Quels sont les documents nécessaires pour obtenir une carte grise?
+    - Pouvez-vous m'informer sur la procédure pour obtenir un acte de décès?
+    - Comment puis-je obtenir une carte de séjour temporaire?
+    - Quelle est la démarche à suivre pour obtenir un certificat de non-gage?
+    - J'aimerais savoir comment obtenir un certificat de scolarité.
+    - Où puis-je obtenir un certificat de vie commune?
+    - Quels documents dois-je fournir pour obtenir une déclaration de perte de carte d'identité?
+    - Pouvez-vous me dire comment obtenir une attestation de domicile?
+    - Comment puis-je obtenir un extrait d'acte de décès?
+    - Quelle est la procédure pour obtenir un certificat de résidence pour étudiant?
+    - J'aimerais savoir comment obtenir un certificat de cession de véhicule.
+    - Où puis-je obtenir un certificat de non-contre-indication à la pratique sportive?
+    - Quels sont les documents nécessaires pour obtenir un permis de travail?
+    - Pouvez-vous m'informer sur la procédure pour obtenir un certificat de radiation scolaire?
+    - Comment puis-je obtenir un certificat de situation administrative?
+    - Quelle est la démarche à suivre pour obtenir un permis de construire modificatif?
+    - J'aimerais savoir comment obtenir un certificat de non-remariage.
+    - Où puis-je obtenir un certificat de conformité?
+    - Quels documents dois-je fournir pour obtenir une attestation d'accueil?
+    - Pouvez-vous me dire comment obtenir un certificat de domicile?
+    - Comment puis-je obtenir un extrait d'acte de mariage plurilingue?
+    - Quelle est la procédure pour obtenir un certificat de situation familiale?
+    - J'aimerais savoir comment obtenir un certificat de non-gage détaillé.
+    - Où puis-je obtenir une déclaration de changement de situation?
+    - Quels sont les documents nécessaires pour obtenir un extrait d'acte de naissance plurilingue?
+    - Pouvez-vous m'informer sur la procédure pour obtenir un certificat de non-contre-indication à la vaccination?
+    - Comment puis-je obtenir un certificat de régularité de situation fiscale?
+    - Quelle est la démarche à suivre pour obtenir un certificat d'hérédité?
+    - J'aimerais savoir comment obtenir un certificat d'immatriculation provisoire.
+    - Où puis-je obtenir un certificat de vente d'un véhicule?
+    - Quels documents dois-je fournir pour obtenir une attestation d'hébergement?
+    - Pouvez-vous me dire comment obtenir un certificat de non-paiement des impôts?
+    - Comment puis-je obtenir une attestation de non-polygamie?
+    - Quelle est la procédure pour obtenir un duplicata de carte grise?
+    - J'aimerais savoir comment obtenir un certificat de non-élection.
+- intent: mariage
+  examples: |
+    - Comment puis-je organiser mon mariage à la mairie?
+    - Quelles sont les étapes pour un mariage civil?
+    - Je veux me marier, que dois-je faire?
+    - Y a-t-il des exigences spéciales pour un mariage civil?
+    - Puis-je réserver une date pour mon mariage à la mairie?
+    - J'ai besoin d'informations sur les mariages à la mairie.
+    - Est-ce que je peux choisir l'officier d'état civil pour mon mariage?
+    - Quels sont les documents nécessaires pour un mariage à la mairie?
+    - Est-il possible de se marier à la mairie le week-end?
+    - Y a-t-il une période d'attente après la publication des bans avant le mariage civil?
+    - Comment puis-je obtenir une copie de mon certificat de mariage après la cérémonie?
+    - Est-il possible d'organiser une cérémonie personnalisée à la mairie pour mon mariage?
+    - Quels sont les frais associés à un mariage civil à la mairie?
+    - Est-ce que je peux inviter des personnes extérieures à la cérémonie de mariage à la mairie?
+    - Comment puis-je annuler ou reporter une date de mariage à la mairie?
+    - Y a-t-il des restrictions sur les tenues vestimentaires pour un mariage civil?
+    - Est-ce que je peux choisir la musique pour ma cérémonie de mariage à la mairie?
+    - Quels sont les avantages fiscaux associés à un mariage civil à la mairie?
+    - Est-il possible d'obtenir une dispense de publication des bans pour un mariage à la mairie?
+    - Comment puis-je obtenir un rendez-vous pour planifier mon mariage à la mairie?
+    - Y a-t-il des conditions spécifiques pour se marier à la mairie en présence d'un officiant religieux?
+    - Est-ce que je peux échanger des vœux personnalisés lors de mon mariage à la mairie?
+    - Quels sont les droits et responsabilités des époux après un mariage civil à la mairie?
+    - Comment puis-je obtenir des informations sur les lieux de réception après la cérémonie de mariage à la mairie?
+    - Est-il possible d'avoir un interprète lors de la cérémonie de mariage à la mairie pour les invités étrangers?
+    - Y a-t-il des programmes de conseil matrimonial disponibles après un mariage civil à la mairie?
+    - Comment puis-je demander une dispense d'âge minimum pour se marier à la mairie?
+    - Quels sont les droits des enfants nés d'un mariage civil à la mairie?
+    - Est-ce que je peux choisir le moment de la cérémonie de mariage à la mairie?
+    - Comment puis-je obtenir des informations sur les fleuristes et décorateurs pour mon mariage à la mairie?
+    - Y a-t-il des frais supplémentaires pour une cérémonie de mariage à la mairie en dehors des heures de bureau?
+    - Est-il possible de personnaliser les lectures ou les rituels lors d'un mariage civil à la mairie?
+    - Comment puis-je obtenir une copie certifiée conforme de mon certificat de mariage après la cérémonie?
+    - Quels sont les droits des conjoints en matière de succession après un mariage civil à la mairie?
+    - Est-ce que je peux obtenir une copie électronique de mon certificat de mariage après la cérémonie?
+    - Comment puis-je obtenir des informations sur les photographes et vidéastes pour mon mariage à la mairie?
+    - Y a-t-il des restrictions sur le nombre d'invités pour un mariage civil à la mairie?
+    - Est-il possible d'avoir une cérémonie de mariage à la mairie en plein air?
+    - Comment puis-je obtenir des informations sur les services traiteur pour mon mariage à la mairie?
+    - Quels sont les droits des époux en matière de sécurité sociale après un mariage civil à la mairie?
+    - Est-ce que je peux inclure des rituels religieux dans ma cérémonie de mariage à la mairie?
+    - Comment puis-je obtenir des informations sur les formalités administratives après mon mariage à la mairie?
+    - Y a-t-il des possibilités de personnalisation des certificats de mariage délivrés par la mairie?
+    - Est-il possible d'avoir une cérémonie de mariage à la mairie dans une autre ville que celle de résidence?
+    - Comment puis-je obtenir des informations sur les possibilités d'hébergement pour les invités après la cérémonie de mariage à la mairie?
+    - Quels sont les droits des conjoints en matière de pension de réversion après un mariage civil à la mairie?
+    - Est-ce que je peux utiliser des accessoires ou des symboles personnels lors de ma cérémonie de mariage à la mairie?
+    - Comment puis-je obtenir des informations sur les offres promotionnelles ou les forfaits mariage à la mairie?
+    - Y a-t-il des conditions spécifiques pour organiser un mariage à la mairie pour les couples de nationalités différentes?
+- intent: inscription_ecole
+  examples: |
+    - Comment puis-je inscrire mon enfant à l'école?
+    - Quels sont les documents nécessaires pour l'inscription scolaire?
+    - Je veux inscrire mon enfant à l'école, pouvez-vous m'aider?
+    - Quelle est la date limite pour l'inscription à l'école?
+    - Y a-t-il des conditions d'admission spécifiques?
+    - Je cherche des informations sur l'inscription à l'école.
+    - Est-ce que je peux encore inscrire mon enfant à l'école pour cette année scolaire?
+    - Comment procéder pour l'inscription de mon enfant à l'école maternelle?
+    - Où puis-je obtenir un formulaire d'inscription à l'école primaire?
+    - Quels sont les horaires d'ouverture du bureau des inscriptions scolaires?
+    - Est-il possible de faire l'inscription en ligne pour l'école secondaire?
+    - Y a-t-il des frais d'inscription à l'école publique?
+    - Quels sont les critères de sélection pour l'inscription à l'école internationale?
+    - Comment puis-je obtenir des informations sur l'inscription à l'école privée?
+    - Quelle est la politique d'admission pour les élèves étrangers à l'école?
+    - Est-ce que je peux choisir l'école pour mon enfant ou y a-t-il une affectation automatique?
+    - Quels sont les délais pour l'inscription à l'école bilingue?
+    - Comment puis-je savoir si mon enfant est éligible pour l'école inclusive?
+    - Y a-t-il des examens d'entrée pour l'inscription à l'école de musique?
+    - Quels sont les avantages de l'inscription précoce à l'école?
+    - Comment puis-je inscrire mon enfant dans une école avec un programme spécialisé?
+    - Quels sont les documents à fournir pour l'inscription à l'école à domicile?
+    - Est-il possible de transférer mon enfant dans une autre école après l'inscription?
+    - Quels sont les délais pour l'inscription à l'école après un déménagement?
+    - Y a-t-il une liste d'attente pour les écoles avec un grand nombre de demandes d'inscription?
+    - Comment puis-je m'assurer que mon enfant est bien inscrit à l'école?
+    - Quels sont les services disponibles pour les nouveaux inscrits à l'école?
+    - Est-ce que je peux visiter l'école avant de procéder à l'inscription de mon enfant?
+    - Comment puis-je obtenir des informations sur les activités parascolaires offertes par l'école?
+    - Quels sont les critères pour l'inscription à l'école avec un programme sportif?
+    - Est-il possible de reporter l'inscription à l'école à l'année suivante?
+    - Comment puis-je obtenir des informations sur le programme scolaire avant l'inscription?
+    - Quels sont les services d'orientation disponibles pour les nouveaux inscrits à l'école?
+    - Est-il nécessaire de fournir des certificats médicaux lors de l'inscription à l'école?
+    - Comment puis-je inscrire mon enfant à l'école en tant qu'étudiant étranger?
+    - Quels sont les avantages de l'inscription à une école avec un programme artistique?
+    - Est-il possible de changer de programme après l'inscription à l'école?
+    - Comment puis-je obtenir des informations sur les ressources disponibles pour les nouveaux élèves?
+    - Quels sont les délais pour l'inscription à l'école après une expulsion?
+    - Est-ce que je peux choisir les matières pour mon enfant après l'inscription à l'école?
+    - Comment puis-je m'assurer que mon enfant est bien intégré après son inscription à l'école?
+    - Quels sont les services d'adaptation disponibles pour les élèves handicapés après l'inscription?
+    - Est-il possible de recevoir une bourse d'études après l'inscription à l'école?
+    - Comment puis-je obtenir des informations sur les mesures de sécurité à l'école après l'inscription?
+    - Quels sont les droits et responsabilités des parents après l'inscription à l'école?
+    - Est-ce que je peux inscrire mon enfant dans une école située en dehors de ma zone de résidence?
+    - Comment puis-je obtenir des informations sur les activités culturelles proposées par l'école après l'inscription?
+    - Quels sont les protocoles en cas de transfert de mon enfant dans une autre école après l'inscription?
+    - Est-il possible de changer de niveau scolaire après l'inscription à l'école?
+    - Comment puis-je obtenir des informations sur les procédures d'urgence à l'école après l'inscription?
+    - Quels sont les programmes d'aide aux devoirs disponibles après l'inscription à l'école?
+    - Est-il possible de suspendre temporairement l'inscription à l'école pour des raisons personnelles?
+    - Comment puis-je obtenir des informations sur les règles de discipline à l'école après l'inscription?
+    - Quels sont les moyens de transport disponibles pour les élèves après l'inscription à l'école?
+    - Est-il possible de consulter les résultats scolaires de mon enfant en ligne après l'inscription à l'école?
+- intent: prise_rendez_vous
+  examples: |
+    - Comment puis-je prendre rendez-vous à la mairie?
+    - Est-il possible de fixer un rendez-vous en ligne?
+    - J'aimerais planifier un rendez-vous avec un agent municipal.
+    - Quels sont les horaires disponibles pour un rendez-vous?
+    - Puis-je prendre rendez-vous pour obtenir un document?
+    - Je voudrais planifier une réunion, que dois-je faire?
+    - Où puis-je fixer un rendez-vous pour discuter de mes démarches administratives?
+    - Comment puis-je organiser un rendez-vous avec le service des ressources humaines?
+    - Est-ce que je peux prendre rendez-vous pour obtenir des informations sur les permis de construire?
+    - J'aimerais planifier un rendez-vous pour parler de mes impôts, comment procéder?
+    - Comment puis-je prendre rendez-vous pour discuter de mes projets de construction?
+    - Est-il possible de réserver un créneau horaire pour une consultation avec un avocat municipal?
+    - Comment puis-je organiser un rendez-vous pour discuter de mon permis de construire?
+    - Puis-je fixer un rendez-vous pour obtenir des conseils sur les subventions disponibles?
+    - Comment puis-je prendre rendez-vous pour une consultation juridique à la mairie?
+    - Est-ce que je peux réserver un créneau pour discuter de mes démarches de demande de subvention?
+    - J'aimerais planifier un rendez-vous pour parler de mes projets d'aménagement urbain, que dois-je faire?
+    - Comment puis-je organiser un rendez-vous pour discuter de mes projets de développement économique?
+    - Puis-je prendre rendez-vous pour obtenir des informations sur les services de garde d'enfants?
+    - Comment puis-je réserver un créneau pour une consultation sur les permis de construire?
+    - Est-ce que je peux fixer un rendez-vous pour discuter de mes plans d'urbanisme avec un urbaniste municipal?
+    - J'aimerais planifier un rendez-vous pour obtenir des conseils sur la création d'une entreprise, comment procéder?
+    - Comment puis-je organiser un rendez-vous pour discuter de mes besoins en matière d'aide sociale?
+    - Puis-je prendre rendez-vous pour obtenir des informations sur les services de santé publique?
+    - Comment puis-je réserver un créneau horaire pour une consultation avec un conseiller municipal?
+    - Est-ce que je peux fixer un rendez-vous pour discuter de mes projets d'aménagement paysager?
+    - J'aimerais planifier un rendez-vous pour obtenir des conseils sur les politiques environnementales, que dois-je faire?
+    - Comment puis-je organiser un rendez-vous pour discuter de mes projets de développement durable?
+    - Puis-je prendre rendez-vous pour obtenir des informations sur les programmes de recyclage de la mairie?
+    - Comment puis-je réserver un créneau pour une consultation sur les politiques de logement social?
+    - Est-ce que je peux fixer un rendez-vous pour discuter de mes besoins en matière de transports publics?
+    - J'aimerais planifier un rendez-vous pour obtenir des conseils sur les initiatives de développement communautaire, comment procéder?
+    - Comment puis-je organiser un rendez-vous pour discuter de mes projets d'amélioration des infrastructures?
+    - Puis-je prendre rendez-vous pour obtenir des informations sur les programmes de sécurité publique?
+    - Comment puis-je réserver un créneau pour une consultation sur les services de loisirs de la mairie?
+    - Est-ce que je peux fixer un rendez-vous pour discuter de mes besoins en matière de services sociaux?
+    - J'aimerais planifier un rendez-vous pour obtenir des conseils sur les politiques culturelles, que dois-je faire?
+    - Comment puis-je organiser un rendez-vous pour discuter de mes projets de promotion du tourisme local?
+    - Puis-je prendre rendez-vous pour obtenir des informations sur les services de développement économique?
+    - Comment puis-je réserver un créneau pour une consultation sur les projets d'embellissement urbain?
+    - Est-ce que je peux fixer un rendez-vous pour discuter de mes besoins en matière de services municipaux?
+    - J'aimerais planifier un rendez-vous pour obtenir des conseils sur les politiques d'éducation, comment procéder?
+    - Comment puis-je organiser un rendez-vous pour discuter de mes projets de soutien aux jeunes?
+    - Puis-je prendre rendez-vous pour obtenir des informations sur les programmes de formation professionnelle?
+    - Comment puis-je réserver un créneau pour une consultation sur les services aux personnes âgées?
+    - Est-ce que je peux fixer un rendez-vous pour discuter de mes besoins en matière de développement social?
+- intent: demande_aide_sociale
+  examples: |
+    - Comment puis-je demander une aide sociale?
+    - Quelles sont les démarches pour obtenir une assistance financière?
+    - Je suis dans le besoin, où puis-je demander de l'aide sociale?
+    - Y a-t-il des programmes d'assistance disponibles?
+    - Quels sont les critères d'éligibilité pour l'aide sociale?
+    - Je cherche des information sur les aides financières disponibles.
+    - Où puis-je obtenir des informations sur les programmes d'aide sociale?
+    - Comment puis-je accéder aux services d'assistance financière?
+    - Est-ce que je peux obtenir des renseignements sur les démarches d'obtention d'une aide sociale?
+    - Pouvez-vous m'aider à obtenir des informations sur les programmes d'aide aux personnes dans le besoin?
+    - Comment puis-je obtenir de l'aide si je rencontre des difficultés financières?
+    - Où puis-je trouver des informations sur les services d'assistance sociale?
+    - Est-ce que je peux obtenir des renseignements sur les conditions pour bénéficier de l'aide sociale?
+    - Pouvez-vous m'orienter vers des informations sur les démarches pour obtenir une aide financière?
+    - Comment puis-je savoir si je suis éligible à une aide sociale?
+    - Où puis-je obtenir de l'aide si j'ai des problèmes financiers?
+    - Est-ce que je peux obtenir des renseignements sur les programmes d'aide aux familles nécessiteuses?
+    - Pouvez-vous m'aider à trouver des informations sur les services d'assistance pour les personnes défavorisées?
+    - Comment puis-je demander de l'aide si je suis confronté à des difficultés financières?
+    - Où puis-je trouver des informations sur les programmes d'aide financière offerts par la mairie?
+    - Est-ce que je peux obtenir des renseignements sur les démarches pour bénéficier d'une assistance sociale?
+    - Pouvez-vous m'orienter vers des informations sur les conditions pour obtenir une aide financière?
+    - Comment puis-je obtenir de l'aide si je suis en situation de précarité?
+    - Où puis-je obtenir des informations sur les services d'assistance aux personnes dans le besoin?
+    - Est-ce que je peux obtenir des renseignements sur les critères d'admissibilité à l'aide sociale?
+    - Pouvez-vous m'aider à trouver des informations sur les programmes d'aide aux personnes démunies?
+    - Comment puis-je demander une aide financière si je suis dans le besoin?
+    - Où puis-je obtenir de l'aide si je suis confronté à des difficultés financières?
+    - Est-ce que je peux obtenir des renseignements sur les services d'assistance sociale à la mairie?
+    - Pouvez-vous m'orienter vers des informations sur les conditions pour bénéficier d'une aide financière?
+    - Comment puis-je savoir si je suis éligible à une assistance sociale?
+    - Où puis-je trouver des informations sur les programmes d'aide aux familles en difficulté?
+    - Est-ce que je peux obtenir des renseignements sur les critères d'admissibilité à l'aide financière?
+    - Pouvez-vous m'aider à trouver des informations sur les démarches pour obtenir une aide sociale?
+    - Comment puis-je demander de l'aide si je rencontre des difficultés financières?
+    - Où puis-je obtenir des informations sur les services d'assistance aux personnes défavorisées?
+    - Est-ce que je peux obtenir des renseignements sur les programmes d'aide sociale disponibles?
+    - Pouvez-vous m'orienter vers des informations sur les conditions pour bénéficier de l'aide financière?
+    - Comment puis-je savoir si je suis éligible à une aide sociale?
+    - Où puis-je obtenir de l'aide si j'ai des problèmes financiers?
+    - Est-ce que je peux obtenir des renseignements sur les démarches pour bénéficier d'une assistance sociale?
+    - Pouvez-vous m'aider à trouver des informations sur les critères d'admissibilité à l'aide financière?
+    - Comment puis-je demander de l'aide si je suis en situation de précarité?
+    - Où puis-je obtenir des informations sur les services d'assistance aux personnes dans le besoin?
+    - Est-ce que je peux obtenir des renseignements sur les programmes d'aide aux personnes démunies?
+    - Pouvez-vous m'orienter vers des informations sur les critères d'admissibilité à l'aide sociale?
+- intent: renouvellement_document
+  examples: |
+    - Comment puis-je renouveler mon document administratif?
+    - Quelle est la procédure pour obtenir un duplicata de ma carte d'identité?
+    - Mon passeport expire bientôt, que dois-je faire pour le renouveler?
+    - Y a-t-il des frais pour le renouvellement des documents?
+    - Combien de temps faut-il pour renouveler un document?
+    - Je cherche des informations sur le renouvellement de documents officiels.
+    - Comment renouveler mon permis de conduire?
+    - Quels sont les documents nécessaires pour renouveler un passeport?
+    - Est-ce que je peux renouveler mon certificat de naissance en ligne?
+    - Où puis-je trouver le formulaire de renouvellement de ma carte d'identité?
+    - Est-ce que je peux renouveler mon permis de séjour avant sa date d'expiration?
+    - Comment puis-je savoir si mon document administratif est éligible au renouvellement?
+    - Quelle est la différence entre un renouvellement et un duplicata de document?
+    - Est-ce que je peux renouveler mon titre de séjour si je change d'adresse?
+    - Y a-t-il une limite de temps pour renouveler un document administratif?
+    - Quelle est la période de validité d'un renouvellement de passeport?
+    - Est-ce que je peux renouveler mon permis de travail en ligne?
+    - Comment puis-je suivre l'état de mon renouvellement de document?
+    - Est-ce que je peux renouveler mon document de résidence permanente à l'étranger?
+    - Quels sont les délais de traitement pour le renouvellement d'une carte de séjour?
+    - Y a-t-il des restrictions pour renouveler un document d'identification expiré?
+    - Est-ce que je peux renouveler mon passeport dans une autre ville que celle où je l'ai obtenu?
+    - Comment puis-je obtenir un rendez-vous pour le renouvellement de mon titre de séjour?
+    - Quels sont les frais de renouvellement pour un document de voyage?
+    - Est-ce que je peux renouveler mon certificat de mariage après un divorce?
+    - Comment puis-je savoir si mon document est toujours valide pour le renouvellement?
+    - Quelle est la durée de validité d'un renouvellement de carte de résident?
+    - Est-ce que je peux renouveler mon visa de touriste si je veux rester plus longtemps?
+    - Comment renouveler mon permis de travail en tant qu'étudiant étranger?
+    - Est-ce que je peux renouveler mon document de résidence permanente si je change de nationalité?
+    - Quels sont les délais pour renouveler un permis de chasse?
+    - Comment renouveler mon document d'assurance maladie après un changement d'emploi?
+    - Est-ce que je peux renouveler mon permis de conduire en ligne?
+    - Quels sont les documents nécessaires pour renouveler un visa d'affaires?
+    - Comment puis-je obtenir une copie de mon acte de naissance pour le renouvellement de mon passeport?
+    - Est-ce que je peux renouveler mon permis de résidence permanente si je perds mon emploi?
+    - Comment puis-je renouveler mon permis de séjour temporaire?
+    - Est-ce que je peux renouveler mon document d'identité après un changement de nom?
+    - Quelle est la procédure pour renouveler un document de voyage expiré?
+    - Est-ce que je peux renouveler mon permis de séjour étudiant en ligne?
+    - Comment renouveler mon document d'immigration en tant que réfugié?
+    - Quels sont les frais pour renouveler un permis de pêche?
+    - Est-ce que je peux renouveler mon titre de séjour familial en cas de divorce?
+    - Comment puis-je renouveler mon permis de résidence temporaire après un mariage?
+    - Quelle est la durée de validité d'un renouvellement de carte d'identité nationale?
+    - Est-ce que je peux renouveler mon visa de travail si je change d'employeur?
+    - Comment renouveler mon document de voyage en tant que résident permanent?
+    - Quels sont les documents nécessaires pour renouveler un permis de séjour longue durée?
+- intent: inscription_listes_electorales
+  examples: |
+    - Comment puis-je m'inscrire sur les listes électorales?
+    - Quelles sont les étapes pour participer aux élections?
+    - Je veux voter, que dois-je faire pour m'inscrire?
+    - Y a-t-il des documents requis pour l'inscription sur les listes électorales?
+    - Quelle est la date limite pour s'inscrire sur les listes électorales?
+    - Je cherche des informations sur l'inscription aux élections.
+    - Où puis-je trouver le formulaire d'inscription aux élections?
+    - Est-ce que je peux m'inscrire sur les listes électorales en ligne?
+    - Comment vérifier si je suis déjà inscrit sur les listes électorales?
+    - Y a-t-il des critères spécifiques pour s'inscrire sur les listes électorales?
+    - Est-ce que je dois être citoyen pour m'inscrire sur les listes électorales?
+    - Quels sont les avantages d'être inscrit sur les listes électorales?
+    - Comment puis-je m'inscrire pour voter par correspondance?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis mineur?
+    - Quels sont les documents acceptés comme preuve d'identité pour l'inscription?
+    - Y a-t-il des frais pour s'inscrire sur les listes électorales?
+    - Comment savoir si mon inscription aux élections a été validée?
+    - Est-ce que je peux m'inscrire sur les listes électorales dans une autre ville que celle de ma résidence?
+    - Quelle est la différence entre l'inscription sur les listes électorales et l'inscription pour voter?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis résident étranger?
+    - Comment mettre à jour mes informations sur les listes électorales?
+    - Y a-t-il une période spécifique pour s'inscrire sur les listes électorales?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis sans domicile fixe?
+    - Comment annuler une inscription sur les listes électorales?
+    - Quels sont les droits et obligations des personnes inscrites sur les listes électorales?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis en détention provisoire?
+    - Comment m'inscrire sur les listes électorales en tant que Français résidant à l'étranger?
+    - Y a-t-il une limite d'âge pour s'inscrire sur les listes électorales?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis interdit de vote?
+    - Comment contester une décision de refus d'inscription sur les listes électorales?
+    - Quels sont les délais pour recevoir ma carte d'électeur après l'inscription?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis sous tutelle?
+    - Comment faire pour être inscrit sur les listes électorales d'une commune où je n'habite pas?
+    - Y a-t-il des conditions spécifiques pour s'inscrire sur les listes électorales en tant que militaire?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis étudiant?
+    - Comment vérifier si mon inscription aux élections a été prise en compte?
+    - Quels sont les droits des personnes inscrites sur les listes électorales?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis enregistré comme personne protégée?
+    - Comment faire pour être inscrit sur les listes électorales d'une résidence secondaire?
+    - Y a-t-il des restrictions pour s'inscrire sur les listes électorales en cas de déménagement récent?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis étranger et résident en France depuis longtemps?
+    - Comment s'inscrire sur les listes électorales pour une personne en situation de handicap?
+    - Quels sont les cas où une inscription sur les listes électorales peut être refusée?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis en congé sabbatique à l'étranger?
+    - Comment vérifier si mon inscription sur les listes électorales a été prise en compte pour les prochaines élections?
+    - Quels sont les risques si je ne m'inscris pas sur les listes électorales?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis en résidence alternée?
+    - Comment modifier mes informations sur les listes électorales si j'ai changé d'adresse?
+    - Y a-t-il des exceptions à la règle d'inscription sur les listes électorales?
+    - Est-ce que je peux m'inscrire sur les listes électorales si je suis en liberté conditionnelle?
+- intent: demande_informations
+  examples: |
+    - J'ai besoin d'aide
+    - Pouvez-vous m'aider?
+    - Je cherche des informations
+    - Aidez-moi s'il vous plaît
+    - J'ai des questions
+    - Qui puis-je contacter pour obtenir des informations?
+    - Je ne sais pas quoi faire, pouvez-vous m'aider?
+    - Je cherche de l'aide avec une question spécifique.
+    - Comment obtenir des informations sur les services de la mairie?
+    - Où puis-je trouver des renseignements sur les démarches administratives?
+    - Je veux en savoir plus sur les horaires d'ouverture de la mairie.
+    - Pouvez-vous me donner des détails sur les services proposés par la mairie?
+    - Est-ce que je peux obtenir des informations sur les mariages civils à la mairie?
+    - Comment puis-je obtenir une assistance sociale?
+    - Où puis-je trouver des informations sur l'inscription à l'école?
+    - Est-ce que vous pouvez m'aider avec les formalités administratives?
+    - Je cherche des informations sur les listes électorales, pouvez-vous m'aider?
+    - Où puis-je trouver des informations sur les documents administratifs?
+    - Comment prendre rendez-vous avec un agent municipal?
+    - Pouvez-vous m'aider à obtenir des informations sur les aides financières?
+    - Est-ce que je peux obtenir des renseignements sur les services de santé à la mairie?
+    - Où puis-je trouver des informations sur les programmes culturels organisés par la mairie?
+    - Je cherche des détails sur les services de transport proposés par la mairie.
+    - Comment puis-je obtenir des informations sur les associations locales?
+    - Est-ce que je peux obtenir des renseignements sur les démarches de mariage civil?
+    - Pouvez-vous m'orienter vers des informations sur les services de loisirs?
+    - Où puis-je trouver des détails sur les démarches de demande de documents administratifs?
+    - Je cherche des informations sur les services d'aide juridique, pouvez-vous m'aider?
+    - Comment puis-je obtenir des informations sur les démarches d'inscription à un événement communautaire?
+    - Est-ce que je peux obtenir des renseignements sur les services d'urgence médicale à la mairie?
+    - Où puis-je trouver des informations sur les activités éducatives organisées par la mairie?
+    - Je cherche des détails sur les programmes de soutien aux entreprises, pouvez-vous m'aider?
+    - Comment puis-je obtenir des informations sur les procédures de demande d'aide sociale?
+    - Pouvez-vous m'aider à trouver des informations sur les démarches de renouvellement de documents administratifs?
+    - Est-ce que je peux obtenir des renseignements sur les services d'assistance aux personnes handicapées?
+    - Où puis-je trouver des informations sur les activités de sensibilisation à l'environnement organisées par la mairie?
+    - Je cherche des détails sur les programmes de soutien aux familles monoparentales, pouvez-vous m'aider?
+    - Comment puis-je obtenir des informations sur les services de médiation familiale à la mairie?
+    - Pouvez-vous m'orienter vers des informations sur les démarches de demande d'aide alimentaire?
+    - Est-ce que je peux obtenir des renseignements sur les services de prévention des maladies à la mairie?
+    - Où puis-je trouver des informations sur les démarches d'inscription aux activités de prévention des incendies organisées par la mairie?
+    - Je cherche des détails sur les services de protection des animaux proposés par la mairie, pouvez-vous m'aider?
+    - Comment puis-je obtenir des informations sur les démarches de demande d'aide aux personnes sans-abri?
+    - Pouvez-vous m'orienter vers des informations sur les services de gestion des parcs et jardins à la mairie?
+    - Est-ce que je peux obtenir des renseignements sur les activités de tutorat scolaire organisées par la mairie?
+    - Où puis-je trouver des informations sur les démarches de demande de soutien aux personnes endeuillées?
+    - Je cherche des détails sur les programmes de réinsertion professionnelle, pouvez-vous m'aider?
